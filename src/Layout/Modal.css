@@ -1,0 +1,99 @@
+.infoModal, .warningModal, .actionModal, .loadingModal {
+	text-align: start;
+	z-index: 10000;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(78, 76, 76, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loadingModal .background {
+	min-width: 400px;
+    background-color: white;
+    position: relative;
+    max-width: 500px;
+   	padding: 50px;
+    border-radius: 7px;
+	box-shadow: 0 2px 24px 0 rgba(0,0,0,0.13);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.loadingModal .text {
+	color: rgb(255, 132, 42);
+	margin-top: 15px;
+	font-size: 18px;
+}
+
+.loadingModal .fas {
+	color: rgb(255, 132, 42);
+	font-size: 80px;
+}
+
+.warningModal .background {
+	min-width: 400px;
+    background-color: white;
+    position: relative;
+    max-width: 500px;
+   	padding: 10px 30px 30px;
+    border-radius: 7px;
+    box-shadow: 0 2px 24px 0 rgba(0,0,0,0.13);
+}
+
+.actionModal .background {
+	background-color: white;
+	position: relative;
+	width: 604px;
+   	padding: 40px 40px 20px 40px;
+    box-shadow: 0 2px 24px 0 rgba(0,0,0,0.13);
+	border-radius: 7px;
+}
+
+.actionModal .bottomBar {
+	padding-top: 40px;
+}
+
+.actionModal h1 {
+	padding-bottom: 20px;
+}
+
+.actionModal .soft {
+	font-size: 17px;
+}
+
+.infoModal .title {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+
+
+.infoModal .background {
+	background-color: white;
+	position: relative;
+	width: 604px;
+	padding: 15px 20px 15px 20px;
+    box-shadow: 0 2px 24px 0 rgba(0,0,0,0.13);
+	border-radius: 7px;
+}
+
+.infoModal .soft {
+	font-size: 17px;
+}
+
+.close-times.fa-times {
+	position: absolute;
+	top: 15px;
+	right: 15px;
+	color: #869AB8;
+	cursor: pointer;
+}
+
+.close-times.fa-times:hover {
+	color: rgb(255, 132, 42)!important;
+}

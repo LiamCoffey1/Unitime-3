@@ -1,0 +1,10 @@
+.bar {
+    position: fixed;
+    background-color: white;
+    width: 200px;
+    height: 100%;
+    border-right: 4px solid grey;
+    top: 0px;
+    left: 200px;
+    box-shadow: 5px 5px 5px rgba(68,68,68,0.6);
+}

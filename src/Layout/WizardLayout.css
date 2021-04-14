@@ -1,0 +1,113 @@
+
+@media (max-width: 852px)
+{
+     .content-wrapper {
+         width: 100%!important;
+         margin-left: 0!important;
+     }
+     .content-wrapper.dash {
+        padding-right: 0!important;
+    }
+     .side-bar {
+         background-color: green;
+         margin-left: -170px;
+     }
+     .side-bar-assign {
+        background-color: green;
+        margin-right: -200px;
+    }
+     .navbar {
+        margin-left: 0!important;
+     }
+}
+
+.side-bar li:not(.active):hover {
+    background-color: rgb(253, 168, 75);
+}
+
+a, a:hover, a:visited, a:link, a:active {
+    text-decoration: none;
+}
+
+
+@media (max-width: 888px)
+{
+     .content-wrapper.dash {
+        padding-right: 20px!important;
+    }
+     .side-bar-assign {
+        background-color: green;
+        margin-right: -200px;
+    }
+}
+
+
+.navbar {
+    background-color: white;
+    color: black;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.07);
+    height: 84px;
+}
+
+.side-bar-assign {
+    margin-top: 84px;
+    position: fixed;
+    background-color: #5AC3D4;
+    width: 170px;
+    height: 100%;
+}
+
+.side-bar {
+    position: fixed;
+    background-color: #5AC3D4;
+    width: 170px;
+    height: 100%;
+}
+
+.side-bar img {
+    padding-bottom: 100px;
+}
+
+.side-bar li p {
+    margin: 0;
+    margin-left: 25px;
+}
+
+.side-bar li.active {
+    border-left: 3px solid white;
+    background-color: rgb(79, 176, 191);
+}
+
+.side-bar li {
+    width: 100%;
+    text-align: start;
+    color: white;
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 500;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+.content-wrapper.dash {
+    padding-right: 200px;
+}
+
+.content-wrapper {
+    background-color: #fbfbfb;
+    width: calc(100% - 170px);
+    min-height: calc(100vh - 84px);
+    padding-top: 100px;
+    padding-bottom: 20px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: center;
+    margin-left: 170px;
+};

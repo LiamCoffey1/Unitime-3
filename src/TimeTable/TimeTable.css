@@ -1,0 +1,57 @@
+.timeTable {
+    margin-bottom: 0;
+}
+
+table {
+    border-collapse: collapse;
+  }
+  
+  table, th, td {
+    border: 1px dotted #e4e4e4;
+
+  }
+
+.table thead th {
+    border: 1px dotted #e4e4e4;
+    vertical-align: middle;
+    text-align: center;
+    border-bottom: none;
+    border-right: none;
+    border-left: none;
+}
+
+.timeTable tbody tr:nth-of-type(odd) {
+    background-color: #F9FAFF;
+}
+
+.timeTable thead {
+    background-color:#dd8f31;
+    color: white;
+}
+
+.timeTable td {
+    height: 76px;
+    text-align: center;
+    vertical-align: middle;
+    border-top: 1px dotted #d0cece;
+}
+
+.timeTable .active {
+    background-color: #def6ff;
+    border: 2px solid rgba(0, 0, 0);
+}
+
+.timeTable thead tr {
+    height: 80px;
+    vertical-align: middle;
+}
+
+.timeTable tr > td:first-child{
+    background-color:#dd8f31;
+    color: white;
+    vertical-align: middle;
+    text-align: center;
+    font-weight: bold;
+    border-top: none;
+    border-bottom: none;
+}

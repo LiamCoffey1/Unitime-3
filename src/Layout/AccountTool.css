@@ -1,0 +1,67 @@
+.accountTool {
+    cursor: pointer;
+    /* margin-top: 18px; */
+    margin-right: 60px;
+    display: inline-flex;
+  }
+  
+  .accountTool .dropdown-menu {
+      padding: 0;
+      width: 211px;
+      box-shadow: rgba(0, 0, 0, 0.25) 0px 1px 4px;
+      border-radius: 5px;
+      left: inherit;
+      float: right;
+      right: 60px;
+      z-index: 10000!important;
+      top: 70px;
+  }
+  .accountTool .dropdown-item {
+    padding: 0px;
+}
+
+.accountTool .dropdown-menu:focus {
+  outline: none;
+}
+  
+  .accountTool .dropdown-menu li {
+      border-bottom: 1px solid rgba(22, 28, 45, 0.15);
+      height: 53px;
+      line-height: 53px;
+      font-weight: 400;
+  }
+  
+  .accountTool .dropdown-menu li:hover {
+      background-color: whitesmoke;
+  }
+  
+  .accountTool .dropdown-menu .fas {
+      margin-right: 20px;
+      margin-left: 20px;
+  }
+  
+  .accountTool .fas {
+    color: #869AB8;
+    line-height: 52px;
+    margin-left: 10px;
+    font-size: 20px;
+  }
+
+  .userSettings {
+    font-weight: 500;
+    display: inline;
+    background-color: #DD8F31;
+    font-size: 24px;
+    color: #FFFFFF;
+    letter-spacing: 0.6px;
+    text-align: center;
+    line-height: 52px;
+    height: 52px;
+    width: 52px;
+    border-radius: 50%;
+  }
+
+  
+  .pull-right {
+      float: right;
+  }
